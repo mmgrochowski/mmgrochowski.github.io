@@ -1,10 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
 </head>
+
 <body>
-    <h1>Zadanie nr. 2</h1>
+    <h1>Zadanie nr.5269</h1><br>
+    <h2>Formularz</h2>
+    <form action="https://formspree.io/mmgrochowski@gmail.com" method="POST">
+
+        <label for="imie">Imie</label>
+        <input type="text" id="imie" name="imie">
+        <br>
+        <br>
+        <label for="nazwisko">Nazwisko</label>
+        <input type="text" id="nazwisko" name="nazwisko">
+        <br>
+        <br>
+        <label for="mail">e-mail</label>
+        <input type="text" id="mail" name="mail">
+        <br>
+        <br>
+        <label for="telefon">Numer telefonu</label>
+        <input type="tel" id="telefon" name="usrtel">
+        <br>
+
+
+        <p>Wybierz miasto:</p>
+        <select name="miasto"> 
+           <option value="warszawa">Warszawa</option>
+           <option value="gdansk">Gdańsk</option>
+           <option value="krakow">Kraków</option>
+        
+       </select>
+       <br>
+       <br>
+       <p>Wybierz płeć:</p>
+       <form>
+  <input type="radio" name="plec" value="mezczyzna" checked>Mężczyzna<br>
+  <input type="radio" name="plec" value="kobieta">Kobieta<br>
+  
+  <br>
+  <br>
+  <p>Potwierdź zgodę na przetwarzanie danych osobowych</p>
+ 
+  <input type="checkbox" name="zgoda" value="zgoda"> Wyrażam zgodę<br>
+ 
+ <p>wiadomość</p>
+ 
+       <label for="wiadomosc">Wiadomość</label>
+        <input type="wiadomosc" id="wiadomosc" name="wiadomosc">
+  <input type="submit" value="Send">
+
+     
+     
+     
+     </form>
 </body>
+
 </html>
