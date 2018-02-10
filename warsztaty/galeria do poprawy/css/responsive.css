@@ -1,0 +1,35 @@
+#gallery{
+width: 80%  ;  
+}
+figure{
+    width: 33%;
+}
+
+@media screen and (max-width: 480px) {
+    
+    #gallery{
+width: 100%  ;  
+}
+figure{
+    width: 100%;
+}
+    
+    
+    @media screen and (min-width: 481px) (max-width: 768px){
+        
+figure{
+    width: 100%;
+}
+    
+    }
+    @media screen and (min-width: 769px) (max-width: 991px) {
+     figure{
+    width: 49%;   
+    }
+        
+        @media screen and (min-width: 992px){
+            
+     figure{
+    width: 33%;   
+    }         
+        }

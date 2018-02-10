@@ -1,0 +1,43 @@
+.div-items {
+    position: relative;
+    border: 1px solid #000;
+    padding: 30px;
+    width: 600px;
+    height: 300px;
+    
+}
+
+.div-items .item {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+}
+
+.div-items .item-1 {
+    background-color: antiquewhite;
+    top:0px;
+    right:0px;
+        
+}
+
+.div-items .item-2 {
+    background-color: blue;
+    left: 0px;
+    bottom: 0px;
+    
+    
+}
+.div-items .item-3 {
+    background-color: violet;
+    /*
+    left:0px;
+    right:0px;
+    top:0px;
+    bottom:0px;
+    margin: auto;
+    */
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    
+}
