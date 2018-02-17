@@ -48,6 +48,6 @@ console.log(imionaOdwrocone);
 
 //sortowanie sablicy
 
-var posortowana = imiona.sort();
+//var posortowana = imiona.sort();
 
-console.log(posortowana);
+//console.log(posortowana);

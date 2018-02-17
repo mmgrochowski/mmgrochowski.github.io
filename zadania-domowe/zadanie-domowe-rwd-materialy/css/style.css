@@ -1,7 +1,14 @@
 * {
 	box-sizing: border-box;
 }
+#gallery {
+	width: 1024px;
+	margin: 0 auto;
+	text-align: center;
+}
 
-header{
-    height: 600px; 
+figure {
+	width: 338px;
+	margin: 0;
+	margin-bottom: 10px;
 }
