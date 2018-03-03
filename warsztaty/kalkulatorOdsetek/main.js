@@ -1,7 +1,8 @@
 'use strict';
 function obliczZysk(wplata, iloscLat, okresKapitalizacji, oprocentowanie, podatek){
-    if(podatek===true){
-        var oprocentowanieOpodatkowanie = oprocentowanie - (oprocentowanie * 0.19);
+  
+    if (podatek === true ) {
+        var oprocentowanieOpodatkowane = oprocentowanie - (oprocentowanie * 0.19);
     } else {
         var oprocentowanieOpodatkowane = oprocentowanie;
     }
