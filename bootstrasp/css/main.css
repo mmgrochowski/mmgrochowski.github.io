@@ -1,3 +1,7 @@
+
+nav{
+    background-color: royalblue
+}
 div.container-first{
     background-color: red;
     height: 500px;
@@ -6,3 +10,12 @@ div.container-second{
     background-color: aqua;
     height: 500px;
 }
+
+.item{
+/*    height: 200px;*/
+    background-color: yellow;
+}
+.item:nth-child(even){
+    background-color: rosybrown;
+}
+
