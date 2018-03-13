@@ -1,22 +1,14 @@
-*{
-    box-sizing: border-box;  
+* {
+    box-sizing: border-box;
     font-family: Verdana;
     font-weight: bold;
-    
 }
-
-
-/*
-body{
-    height: 100%;
-}
-*/
 
 #container {
-    position: absolute; 
+    position: absolute;
     top: 0;
-    left: 0; 
-    right: 0; 
+    left: 0;
+    right: 0;
     bottom: 0;
 }
 
@@ -27,9 +19,9 @@ body{
         background-image: url(../obrazy/man-1.jpg);
         background-size: cover;
         background-repeat: no-repeat;
- }
-    .content{
-        color:black;
+    }
+    .content {
+        color: black;
         text-align: center;
         position: relative;
         top: 100%;
@@ -45,11 +37,11 @@ body{
         background-repeat: no-repeat;
     }
     .content {
-        color:white;
+        color: white;
         position: absolute;
         right: 0;
         padding: 10px;
-        
+
     }
 }
 
@@ -63,11 +55,11 @@ body{
         background-repeat: no-repeat;
     }
     .content {
-        color:white;
+        color: white;
         position: absolute;
         left: 0;
         top: 50%;
         padding: 10px;
-        
+
     }
-}*/
+}
