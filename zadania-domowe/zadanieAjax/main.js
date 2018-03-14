@@ -8,4 +8,4 @@
           
           $("div").addClass("dane-programisty");
       });
-  })
+  });
