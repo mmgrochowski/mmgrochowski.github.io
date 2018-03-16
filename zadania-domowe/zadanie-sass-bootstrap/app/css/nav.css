@@ -1,0 +1,21 @@
+#main-nav {
+  width: 100%;
+  background-color: #fff;
+  right: 0;
+  top: 0;
+  z-index: 2; }
+  #main-nav .nav-item {
+    margin: 0;
+    float: right; }
+  #main-nav .nav-item {
+    margin: 0;
+    float: right; }
+    #main-nav .nav-item .nav-link {
+      display: inline-block;
+      list-style: none;
+      padding: 20px 40px;
+      color: #1ac056;
+      text-decoration: none;
+      font-weight: 300; }
+    #main-nav .nav-item .nav-link:hover {
+      color: rgba(42, 61, 79, 0.8); }

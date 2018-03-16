@@ -1,0 +1,17 @@
+@import 'zmienne';
+
+#about {
+  background-color: $bialy;
+  overflow: hidden;
+  padding: 100px 0;
+  padding-top: 0px; 
+  .container .row {
+    display: block; 
+    .section-header figure {
+      margin: 0;
+      text-align:left;
+      img {
+        height: 350px;
+        border: 14px $bialy solid;
+        border-radius: 15px;
+          max-width: 100%; }}}}

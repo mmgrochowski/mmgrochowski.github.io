@@ -1,0 +1,15 @@
+#about {
+  background-color: #fff;
+  overflow: hidden;
+  padding: 100px 0;
+  padding-top: 0px; }
+  #about .container .row {
+    display: block; }
+    #about .container .row .section-header figure {
+      margin: 0;
+      text-align: left; }
+      #about .container .row .section-header figure img {
+        height: 350px;
+        border: 14px #fff solid;
+        border-radius: 15px;
+        max-width: 100%; }

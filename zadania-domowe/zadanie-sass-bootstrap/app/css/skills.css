@@ -1,0 +1,13 @@
+#skills {
+  padding-bottom: 50px; }
+  #skills .container .section-header .section-caption {
+    text-align: center; }
+  #skills .container #skills-icons {
+    text-align: center; }
+    #skills .container #skills-icons .skills-icons-item {
+      display: inline-block;
+      margin: 40px; }
+      #skills .container #skills-icons .skills-icons-item img {
+        margin-bottom: 15px; }
+        #skills .container #skills-icons .skills-icons-item img figcaption {
+          flex-wrap: wrap; }
