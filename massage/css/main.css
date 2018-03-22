@@ -1,6 +1,10 @@
-body{
+*{
     box-sizing: border-box;
+}
+
+div.content{
     background-image: url(../img/relaxation-686392_1920.jpg);    
+    height: 100%;
     top: 0;
     left: 0;
     right: 0;
@@ -8,6 +12,7 @@ body{
     position: absolute;
     background-size: cover;
     background-repeat: no-repeat;
+    z-index: -1;
 }
  
 #main-nav {
