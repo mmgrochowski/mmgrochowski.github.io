@@ -1,0 +1,26 @@
+body{
+    box-sizing: border-box;
+    background-image: url(../img/relaxation-686392_1920.jpg);    
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ 
+#main-nav {
+    background: rgba(0, 0, 0, 0.2);   
+}
+a#link-menu{
+    color:#fff;
+    font-size: 20px;
+}
+a#link-menu:hover{
+    color: rgba(255, 255, 255, 0.4);
+}
+header #main-nav a.navbar-brand{
+    color:#fff;
+    font-size: 40px;
+}
