@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>masazysta MediMass</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
+    <script type="text/javascript" src="js/main.js"></script>
 </head>
 
 <body>
     <header>
         <nav id="main-nav" class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="#">MediMass</a>
+            <a class="navbar-brand" onclick="start()" href="#">// MediMass //</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -18,34 +20,94 @@
                 <ul class="navbar-nav mr-auto w-100 justify-content-end">
 
                     <li class="nav-item ">
-                        <a id="link-menu" class="nav-link active" href="#">masaż relaksacyjny <span class="sr-only">(current)</span></a>
+                        <a id="link-menu" class="nav-link" onclick="relaksacyjny()" href="#">masaż relaksacyjny <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a id="link-menu" class="nav-link" href="#">masaż leczniczy </a>
+                        <a id="link-menu" class="nav-link" onclick="leczniczy()" href="#">masaż leczniczy </a>
                     </li>
                     <li class="nav-item">
-                        <a id="link-menu" class="nav-link" href="#">o mnie</a>
+                        <a id="link-menu" class="nav-link" onclick="omnie()" href="#">o mnie</a>
                     </li>
                     <li class="nav-item">
-                        <a id="link-menu" class="nav-link" href="#">cennik</a>
+                        <a id="link-menu" class="nav-link" onclick="cennik()" href="#">cennik</a>
                     </li>
                     <li class="nav-item">
-                        <a id="link-menu" class="nav-link" href="#">kontakt</a>
+                        <a id="link-menu" class="nav-link" onclick="kontakt()" href="#">kontakt</a>
                     </li>
                 </ul>
             </div>
         </nav>
     </header>
-<div class="content">
-    
-</div>
 
+<main class="content">
+
+
+   
+   
+ <div id="start" class="">
+    
+    <div  class="">
+        <h1>strona startowa</h1>
+        <br>
+        <br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod soluta nesciunt omnis deserunt repellendus, ad cum porro accusamus facilis quibusdam repellat earum ipsa veniam sunt error sapiente quisquam rerum enim officia est distinctio nobis dolore qui libero. Magnam itaque est quaerat dolorum laboriosam eveniet magni, dolore quae corporis veritatis assumenda, repellendus dolorem porro explicabo id numquam, provident similique molestiae illum quidem tenetur facere, iusto eaque quos. Eos earum expedita fuga sint totam tempora eligendi quo. Cum tenetur numquam ipsam, totam aliquam pariatur. Recusandae inventore enim quisquam. Accusantium nulla minima impedit, ducimus omnis facere! Iste optio, recusandae alias iusto, iure ratione.</p>
+        </div>
+  </div>  
+  
+   
+   
+   
+<div id="relaksacyjny" class="window">
+    
+    <div class="inner">
+        <h3>Masaż relaksacyjny</h3>
+        <br>
+        <br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod soluta nesciunt omnis deserunt repellendus, ad cum porro accusamus facilis quibusdam repellat earum ipsa veniam sunt error sapiente quisquam rerum enim officia est distinctio nobis dolore qui libero. Magnam itaque est quaerat dolorum laboriosam eveniet magni, dolore quae corporis veritatis assumenda, repellendus dolorem porro explicabo id numquam, provident similique molestiae illum quidem tenetur facere, iusto eaque quos. Eos earum expedita fuga sint totam tempora eligendi quo. Cum tenetur numquam ipsam, totam aliquam pariatur. Recusandae inventore enim quisquam. Accusantium nulla minima impedit, ducimus omnis facere! Iste optio, recusandae alias iusto, iure ratione.</p>
+        </div>
+  </div>  
+
+<div id="leczniczy" class="window">    
+     <div  class="inner">
+        <h3>Masaż leczniczy</h3>
+        <br>
+        <br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod soluta nesciunt omnis deserunt repellendus, ad cum porro accusamus facilis quibusdam repellat earum ipsa veniam sunt error sapiente quisquam rerum enim officia est distinctio nobis dolore qui libero. Magnam itaque est quaerat dolorum laboriosam eveniet magni, dolore quae corporis veritatis assumenda, repellendus dolorem porro explicabo id numquam, provident similique molestiae illum quidem tenetur facere, iusto eaque quos. Eos earum expedita fuga sint totam tempora eligendi quo. Cum tenetur numquam ipsam, totam aliquam pariatur. Recusandae inventore enim quisquam. Accusantium nulla minima impedit, ducimus omnis facere! Iste optio, recusandae alias iusto, iure ratione.</p>
+        </div>
+    </div>
+
+<div id="omnie" class="window">
+    <div class="left"> <img src="img/doctor-1228629_640.jpg" alt=""> </div>
+    <div class="right">
+            <h2>O mnie</h2>
+            <br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod soluta nesciunt omnis deserunt repellendus, ad cum porro accusamus facilis quibusdam repellat earum ipsa veniam accusamus facilis quibusdam repellat earum ipsa veniam accusamus facilis quibusdam repellat earum ipsa veniam sunt error sapiente quisquam rerum enim officia est distinctio nobis dolore qui libero. </p>
+    </div>
+    </div>
+<div id="cennik" class="window">    
+     <div class="inner">
+        <h3>Cennik</h3>
+        <br>
+        <br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod soluta nesciunt omnis deserunt repellendus, ad cum porro accusamus facilis quibusdam repellat earum ipsa veniam sunt error sapiente quisquam rerum enim officia est distinctio nobis dolore qui libero. Magnam itaque est quaerat dolorum laboriosam eveniet magni, dolore quae corporis veritatis assumenda, repellendus dolorem porro explicabo id numquam, provident similique molestiae illum quidem tenetur facere, iusto eaque quos. Eos earum expedita fuga sint totam tempora eligendi quo. Cum tenetur numquam ipsam, totam aliquam pariatur. Recusandae inventore enim quisquam. Accusantium nulla minima impedit, ducimus omnis facere! Iste optio, recusandae alias iusto, iure ratione.</p>
+        </div>
+    </div>
+
+<div id="kontakt" class="window">    
+     <div class="inner">
+        <h3>Kontakt</h3>
+        <br>
+        <br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod soluta nesciunt omnis deserunt repellendus, ad cum porro accusamus facilis quibusdam repellat earum ipsa veniam sunt error sapiente quisquam rerum enim officia est distinctio nobis dolore qui libero. Magnam itaque est quaerat dolorum laboriosam eveniet magni, dolore quae corporis veritatis assumenda, repellendus dolorem porro explicabo id numquam, provident similique molestiae illum quidem tenetur facere, iusto eaque quos. Eos earum expedita fuga sint totam tempora eligendi quo. Cum tenetur numquam ipsam, totam aliquam pariatur. Recusandae inventore enim quisquam. Accusantium nulla minima impedit, ducimus omnis facere! Iste optio, recusandae alias iusto, iure ratione.</p>
+        </div>
+    </div>
+</main>
 
     <!--/.Footer-->
     <footer>
         <div class="card-footer fixed-bottom text-center">
-            © Copyright 2018 
-            <a href="#"> JGCWebsite.com </a> 
+            © Copyright 2018
+            <a href="#"> JGCWebsite.com </a>
         </div>
     </footer>
     <!--/.Footer-->
@@ -61,5 +123,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ 
 </body>
+
 </html>
